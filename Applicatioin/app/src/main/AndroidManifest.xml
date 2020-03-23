@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shaan.main_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity1_SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity2_BottomNavigation"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name="._1_NumberSystem.Number_Sys_Main"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="._1_NumberSystem.EvenOddTerm"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+        <activity
+            android:name="._1_NumberSystem.SqrCubeRoot"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+        <activity
+            android:name="._12_TimeDistance.TimeDistance_Calculator"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+        <activity
+            android:name="._16_SimpleInterest.Simple_Interest_Calculator"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+        <activity
+            android:name="._17_CompoundInterest.Compound_Interest_Calculator"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+        <activity
+            android:name="._6_Profitloss.ProfitLoss"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="._1_NumberSystem.EvenOddFinder" />
+        <activity android:name="._1_NumberSystem.Topic1_NumberSystem" />
+        <activity android:name="._1_NumberSystem.Topic2_TypesOfNumbers" />
+        <activity android:name="._1_NumberSystem.Topic3_EvenAndOddNumbers" />
+        <activity android:name="._1_NumberSystem.Topic4_PrimeAndCompositeNumbers" />
+        <activity android:name="._1_NumberSystem.Topic5_TestOfDivisibility" />
+        <activity android:name="._17_CompoundInterest.Compound_Main" />
+        <activity android:name="._17_CompoundInterest.Compound_Interest_Explanation" />
+        <activity android:name="._1_NumberSystem.NumberSystemCalculator" />
+        <activity android:name="._12_TimeDistance.TimeDistance_Main" />
+        <activity android:name="._16_SimpleInterest.Simple_Interest_Explanation" />
+        <activity android:name="._16_SimpleInterest.Simple_Interset_Main" />
+        <activity android:name="._3_Average.Average_Explanation" />
+        <activity android:name="._4_Age.Age_Explanation" />
+        <activity android:name="._4_Age.Age_Main" />
+        <activity android:name="._3_Average.Average_Main" />
+        <activity android:name="._1_NumberSystem.Practice" />
+        <activity android:name="._15_MixtureAndAlligation.MixtureAndAlligation_Explanation" />
+        <activity android:name="._15_MixtureAndAlligation.MixtureAndAlligation_Main" />
+        <activity android:name="._2_HcfAndLcm.HcfAndLcm_Main" />
+        <activity android:name="._5_Percentage.Percentage_Main" />
+        <activity android:name="._7_RatioAndPropotion.RatioAndPropotion_Main" />
+        <activity android:name="._8_Partnership.Partnership_Main" />
+        <activity android:name="._9_ChainRule.ChainRule_Main" />
+        <activity android:name="._10_TimeAndWork.TimeAndWork_Main" />
+        <activity android:name="._11_PipesAndCistern.PipesAndCistern_Main" />
+        <activity android:name="._13_ProblemsOnTrains.ProblemsOnTrains_Main" />
+        <activity android:name="._14_BoatAndStreams.BoatsAndStreams_Main" />
+        <activity android:name="._18_Logarithms.Logarithms_main" />
+        <activity android:name="._19_Area.Area_Main" />
+        <activity android:name="._20_VolumeAndSurfaceAreas.VolumeAndSurfaceAreas_Main" />
+        <activity android:name="._21_RacesAndGamesOfSkill.RacesAndGamesOfSkill_Main" />
+        <activity android:name="._22_Calendar.Calendar_Main" />
+        <activity android:name="._23_Clocks.Clocks_Main" />
+        <activity android:name="._24_StocksAndShares.StocksAndShares_Main" />
+        <activity android:name="._25_PermutationsAndCombinations.PermutationsAndCombinations_Main" />
+        <activity android:name="._26_Probability.Probability_Main" />
+        <activity android:name="._27_TrueDiscount.TrueDiscount_Main" />
+        <activity android:name="._28_BankerDiscount.BankerDiscount_Main" />
+        <activity android:name="._29_HeightsAndDistances.HeightsAndDistances_Main" />
+        <activity android:name="._2_HcfAndLcm.HcfAndLcm_Explanation" />
+        <activity android:name="._7_RatioAndPropotion.RatioAndPropotion_Explanation" />
+        <activity android:name="._5_Percentage.Percentage_Explanation" />
+        <activity android:name="._8_Partnership.Partnership_Explanation" />
+        <activity android:name="._9_ChainRule.ChainRule_Explanation" />
+        <activity android:name="._10_TimeAndWork.TimeAdWork_Explanation" />
+        <activity android:name="._11_PipesAndCistern.PipesAndCistern_Explanation" />
+        <activity android:name="._14_BoatAndStreams.BoatAndStreams_Explanation" />
+        <activity android:name="._18_Logarithms.Logarithms_Explanation" />
+        <activity android:name="._20_VolumeAndSurfaceAreas.VolumeAndSurfaceAreas_Explanation" />
+        <activity android:name="._21_RacesAndGamesOfSkill.RacesAndGamesOfSkill_Explanation" />
+        <activity android:name="._22_Calendar.Calendar_Explanation" />
+        <activity android:name="._23_Clocks.Clocks_Explanation" />
+        <activity android:name="._24_StocksAndShares.StocksAndShares_Explanation" />
+        <activity android:name="._25_PermutationsAndCombinations.PermutationsAndCombinations_Explanation" />
+        <activity android:name="._26_Probability.Probability_Explanation" />
+        <activity android:name="._27_TrueDiscount.TrueDiscount_Explanation" />
+        <activity android:name="._28_BankerDiscount.BankerDiscount_Explanation" />
+        <activity android:name="._29_HeightsAndDistances.HeightsAndDistances_Explanation" />
+        <activity android:name="._19_Area.Area_Explanation" />
+        <activity android:name="._13_ProblemsOnTrains.ProblemsOnTrains_Explanation" />
+        <activity android:name=".Activity3_Concept"></activity>
+    </application>
+
+</manifest>

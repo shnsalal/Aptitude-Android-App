@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaan.main_project._12_TimeDistance.TimeDistance_Calculator"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:padding="20dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/TD_textView1"
+                    android:text="Enter value to find Speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="30dp"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/TD_editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Enter Distance in km"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/TD_editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="Enter Time in hour"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/TD_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="Find Speed" />
+
+    </LinearLayout>
+
+</LinearLayout>

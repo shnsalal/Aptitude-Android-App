@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_concept"
+        android:icon="@drawable/concept96"
+        android:title="@string/title_concept"/>
+
+    <item
+        android:id="@+id/navigation_practice"
+        android:icon="@drawable/practice96"
+        android:title="@string/title_practice"/>
+
+    <item
+        android:id="@+id/navigation_calculator"
+        android:icon="@drawable/calculator96"
+        android:title="@string/title_calculator"/>
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/more96"
+        android:title="@string/title_more"/>
+
+</menu>

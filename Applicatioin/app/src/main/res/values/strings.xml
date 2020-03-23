@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Main_Project</string>
+    <string name="title_activity_activity2__bottom_navigation">Activity2_BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_practice">Practice</string>
+    <string name="title_calculator">Calculator</string>
+    <string name="title_more">More</string>
+    <string name="title_concept">Concept</string>
+</resources>
